@@ -23,4 +23,7 @@ Have pip installed (check by using this in cmd: pip --version)
 </ul>
 
 <h1>Inside .env:</h1>
-<h3>Change your variables to <span style="font-weight: bold;">YOUR WIFI's<span> credentials</h3>
+<h3>Change your variables to <b>YOUR WIFI's</b> credentials</h3>
+
+<h1>Command to run:</h1>
+<i><h3>py -u main.py</h3></i>
