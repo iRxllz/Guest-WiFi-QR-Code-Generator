@@ -1,35 +1,36 @@
-<h1>This is my first interaction with Python.</h1>
-
-<br>
-
-<h2>A simple and generic QR Code Generator that anyone can use.</h2>
+<h1>WiFi QR Code Generator</h1>
+<h6>Easily generate a QR code for your guest WiFi network. This QR code can be printed and shared with guests, making it convenient for them to connect to your WiFi without needing to type in a password.
+</h6>
 
 <br>
 
 <h1>Prerequisites:</h1>
-
+<h6>Ensure you have the following:</h6>
 <ul>
-
-<li>Have Python installed (check by using this in cmd: python --version)</li>
-
 <li>
-Have pip installed (check by using this in cmd: pip --version)
+<b>Python:</b> Check by running `python --version` in your command prompt or terminal.
 </li>
-
-<li>Install wifi-qrcode-generator package (pip install wifi-qrcode-generator)
+<li>
+<b>pip:</b> Check by running `pip --version` in your command prompt or terminal.
 </li>
-
-<li>Install dotenv package (pip install python-dotenv)
-</li>
-
 </ul>
+<h6>Install the necessary Python packages:</h6>
+```bash
+pip install wifi-qrcode-generator python-dotenv
+```
 
 <br>
 
-<h1>Inside .env:</h1>
-<h3>Change your variables to <b>YOUR WIFI's</b> credentials</h3>
-
-<br>
-
-<h1>Command to run:</h1>
-<i><h3>py -u main.py</h3></i>
+<h1>Setup:</h1>
+<ol>
+<li>
+Create a `.env` file in the root directory of the project.
+</li>
+Add your WiFi credentials to your `.env` file:
+```bash
+SSID=YOUR-WIFI-NAME
+PASSWORD=YOUR-WIFI-PASSWORD
+AUTH_TYPE=WPA
+IS_HIDDEN=FALSE
+```
+</ol>
