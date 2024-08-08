@@ -15,7 +15,7 @@
 </li>
 </ul>
 <h4>Install the necessary Python packages:</h4>
-```
+```bash
 pip install wifi-qrcode-generator python-dotenv
 ```
 
@@ -28,9 +28,9 @@ Create a `.env` file in the root directory of the project.
 </li>
 Add your WiFi credentials to your `.env` file:
 ```
-SSID=YOUR-WIFI-NAME
-PASSWORD=YOUR-WIFI-PASSWORD
-AUTH_TYPE=WPA
+SSID=YOUR-WIFI-NAME<br>
+PASSWORD=YOUR-WIFI-PASSWORD<br>
+AUTH_TYPE=WPA<br>
 IS_HIDDEN=FALSE
 ```
 </ol>
