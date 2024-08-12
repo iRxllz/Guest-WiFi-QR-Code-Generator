@@ -11,7 +11,7 @@ Ensure you have the following installed:
 - **Python**: Check by running `python --version` in your command prompt or terminal.
 - **pip**: Check by running `pip --version` in your command prompt or terminal.
 
-Install the necessary Python packages:
+Install the necessary Python packages (if you don't already have them):
 
 ```bash
 pip install wifi-qrcode-generator python-dotenv
